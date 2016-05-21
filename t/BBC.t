@@ -16,7 +16,6 @@ $dt->subtract(days => 2);
 my $yesterday = $dt->year . '/' . $dt->month . '/' . $dt->day;
 
 my %q = (
-  "what's on bbc 3"               => "bbcthree/$today",
   "bbc radio 1 schedule"          => "radio1/england/$today",
   "bbc radio 4 schedule"          => "radio4/fm/$today",
   "bbc radio 4 fm schedule"       => "radio4/fm/$today",

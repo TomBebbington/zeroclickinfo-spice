@@ -97,7 +97,6 @@ handle remainder => sub {
     return ('cbeebies', @date) if ($query =~ /cbeebies/);
     return ('cbbc', @date) if ($query =~ /cbbc/);
     return ('bbcfour', @date) if ($query =~ /bbc (4|four)/);
-    return ('bbcthree', @date) if ($query =~ /bbc (3|three)/);
     return ('bbctwo', $region, @date) if ($query =~ /bbc (2|two)/);
     return ('bbcone', $area, @date) if ($query =~ /bbc( 1| one)?$/);
     return;
